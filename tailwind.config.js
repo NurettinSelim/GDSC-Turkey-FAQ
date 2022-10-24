@@ -14,7 +14,20 @@ module.exports = {
           100: "#ECE5C1",
           200: "#E7DEB1",
         },
-
+      },
+      backgroundImage: {
+        'up-arrow': "url('/img/up.svg')",
+        'down-arrow': "url('/img/down.png')",
+      },
+      rotate: {
+        "90": "90deg",
+        "180": "180deg",
+        "270": "270deg",
+        "360": "360deg",
+        "-90": "-90deg",
+        "-180": "-180deg",
+        "-270": "-270deg",
+        "-360": "-360deg",
       },
     },
   },

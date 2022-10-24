@@ -14,14 +14,14 @@ const Home: NextPage = () => {
         <h1 className="text-4xl font-medium">GDSC Turkiye FAQ</h1>
         <h2>Bu sayfa sıklıkla sorulan soruları toplamak için yapılmıştır.</h2>
       </div>
-      
+
 
       <div className="w-full px-4 pt-16">
         <div className="mx-auto w-full max-w-md rounded-2xl p-2">
           {qas.map(qa => (<QuestionBox key={qa.id} question={qa.question} answer={qa.answer} />))}
         </div>
       </div>
-      
+
     </div>
   )
 }
