@@ -1,22 +1,36 @@
 [
     {
         "id": 1,
-        "question": "Bunu kim geliştirdi?",
-        "answer": "Ben."
+        "category": "general",
+        "name": "Genel",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Bunu kim geliştirdi?",
+                "answer": "Ben."
+            },
+            {
+                "id": 2,
+                "question": "Hangi framework ile geliştirildi?",
+                "answer": "Next.JS"
+            }
+        ]
     },
     {
         "id": 2,
-        "question": "Hangi framework ile geliştirildi?",
-        "answer": "Next.JS"
-    },
-    {
-        "id": 3,
-        "question": "Ne için geliştirildi?",
-        "answer": "GDSC topluluğunun sorduğu soruları toplamak için."
-    },
-    {
-        "id": 4,
-        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere est eget massa porta scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla pellentesque imperdiet odio in scelerisque. Vestibulum ligula velit, pellentesque sed tellus a, dapibus hendrerit purus. Vivamus lacus odio, finibus non nunc eget, ornare posuere eros. Proin sed sem urna. Nullam eget magna a erat tristique volutpat. Curabitur accumsan in nunc a tincidunt. Morbi venenatis lectus eget posuere sollicitudin. Morbi lacinia sodales mi, elementum semper felis porta eget. Vivamus tristique rutrum tortor vel porttitor. Mauris cursus rhoncus imperdiet. Donec blandit, nunc a imperdiet convallis, tortor nisl scelerisque purus, sed rutrum felis lorem id nibh.",
-        "answer": "Morbi hendrerit eros quis tortor suscipit, a scelerisque libero tincidunt. Nam ipsum diam, elementum porta sem id, convallis sollicitudin nisi. Nunc a massa in metus sollicitudin vehicula. Aliquam erat volutpat. Praesent accumsan sollicitudin sem, a consequat tortor fermentum id. Nullam ut sollicitudin massa. In eu blandit sem, id eleifend nisl.\nDonec suscipit volutpat enim, at tempor augue euismod vel. In pretium consectetur ligula nec volutpat. Phasellus egestas velit eget enim tristique, sed sagittis ipsum tristique. Maecenas eget tellus egestas, rutrum eros eu, ultricies nisl. Morbi ultrices velit massa, et eleifend lectus accumsan ornare. Proin consectetur risus ac turpis blandit, sit amet malesuada ex feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec at euismod dui, non finibus nulla. Integer nec tincidunt tellus. Curabitur porttitor nulla efficitur elit condimentum aliquet. Sed et tellus pharetra, placerat tellus sed, venenatis lorem."
+        "category": "compose-camp",
+        "name": "Compose Camp",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere est eget massa porta scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla pellentesque imperdiet odio in scelerisque. Vestibulum ligula velit, pellentesque sed tellus a, dapibus hendrerit purus. Vivamus lacus odio, finibus non nunc eget, ornare posuere eros. Proin sed sem urna. Nullam eget magna a erat tristique volutpat. Curabitur accumsan in nunc a tincidunt. Morbi venenatis lectus eget posuere sollicitudin. Morbi lacinia sodales mi, elementum semper felis porta eget. Vivamus tristique rutrum tortor vel porttitor. Mauris cursus rhoncus imperdiet. Donec blandit, nunc a imperdiet convallis, tortor nisl scelerisque purus, sed rutrum felis lorem id nibh.",
+                "answer": "Morbi hendrerit eros quis tortor suscipit, a scelerisque libero tincidunt. Nam ipsum diam, elementum porta sem id, convallis sollicitudin nisi. Nunc a massa in metus sollicitudin vehicula. Aliquam erat volutpat. Praesent accumsan sollicitudin sem, a consequat tortor fermentum id. Nullam ut sollicitudin massa. In eu blandit sem, id eleifend nisl.\nDonec suscipit volutpat enim, at tempor augue euismod vel. In pretium consectetur ligula nec volutpat. Phasellus egestas velit eget enim tristique, sed sagittis ipsum tristique. Maecenas eget tellus egestas, rutrum eros eu, ultricies nisl. Morbi ultrices velit massa, et eleifend lectus accumsan ornare. Proin consectetur risus ac turpis blandit, sit amet malesuada ex feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec at euismod dui, non finibus nulla. Integer nec tincidunt tellus. Curabitur porttitor nulla efficitur elit condimentum aliquet. Sed et tellus pharetra, placerat tellus sed, venenatis lorem."
+            },
+            {
+                "id": 2,
+                "question": "Ne için geliştirildi?",
+                "answer": "GDSC topluluğunun sorduğu soruları toplamak için."
+            }
+        ]
     }
 ]
